@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="banner-title banner-desc">
+  <title id="banner-title">YangObscurity - Embedded Systems, IoT Firmware, Backend Telemetry</title>
+  <desc id="banner-desc">A circuit board: J1 hardware (JLC EDA layout, IP5306 power, GPRS over UART, LVGL on ILI9341) feeds an ESP32 running ESP-IDF and FreeRTOS, which sends HTTP to a backend display showing FastAPI and PostgreSQL requests.</desc>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0.15; } }
+    @keyframes flow { 0% { transform: translateX(0); opacity: 0; } 15% { opacity: 1; } 85% { opacity: 1; } 100% { transform: translateX(47.0px); opacity: 0; } }
+    @keyframes beat { 0%, 100% { opacity: 0.25; } 50% { opacity: 1; } }
+    @keyframes line { 0%, 4% { opacity: 0; } 8%, 88% { opacity: 1; } 94%, 100% { opacity: 0; } }
+    .tx { animation: blink 0.7s step-end infinite; }
+    .rx { animation: blink 0.9s step-end infinite; animation-delay: 0.35s; }
+    .beat { animation: beat 1.2s ease-in-out infinite; }
+    .cursor { animation: blink 1s step-end infinite; }
+    .pkt { animation: flow 1.6s linear infinite; }
+    .ln { opacity: 0; animation: line 8s linear infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      .tx, .rx, .beat, .cursor, .pkt, .ln { animation: none; opacity: 1; }
+    }
+  </style>
+  <rect x="1" y="1" width="958" height="538" rx="18" fill="#0f3d2c" stroke="#2a7a57" stroke-width="2" />
+  <circle cx="30" cy="30" r="9" fill="#08110d" stroke="#e0b341" stroke-width="4" />
+  <circle cx="930" cy="30" r="9" fill="#08110d" stroke="#e0b341" stroke-width="4" />
+  <circle cx="30" cy="510" r="9" fill="#08110d" stroke="#e0b341" stroke-width="4" />
+  <circle cx="930" cy="510" r="9" fill="#08110d" stroke="#e0b341" stroke-width="4" />
+  <text x="64" y="98" class="sans" font-size="54" fill="#f5f7f2" font-weight="700" letter-spacing="2">YangObscurity</text>
+  <text x="64" y="136" class="mono" font-size="20" fill="#b8d8c4">Embedded Systems &#183; IoT Firmware &#183; Backend Telemetry</text>
+  <rect x="722" y="62" width="28" height="14" rx="3" fill="#0a1a12" stroke="#b8d8c4" stroke-width="1" />
+  <rect x="725" y="65" width="22" height="8" rx="2" fill="#3fe07a" />
+  <text x="736" y="106" class="mono" font-size="18" fill="#f5f7f2" text-anchor="middle">PWR</text>
+  <rect x="792" y="62" width="28" height="14" rx="3" fill="#0a1a12" stroke="#b8d8c4" stroke-width="1" />
+  <rect class="tx" x="795" y="65" width="22" height="8" rx="2" fill="#ffb020" />
+  <text x="806" y="106" class="mono" font-size="18" fill="#f5f7f2" text-anchor="middle">TX</text>
+  <rect x="862" y="62" width="28" height="14" rx="3" fill="#0a1a12" stroke="#b8d8c4" stroke-width="1" />
+  <rect class="rx" x="865" y="65" width="22" height="8" rx="2" fill="#4cc9f0" />
+  <text x="876" y="106" class="mono" font-size="18" fill="#f5f7f2" text-anchor="middle">RX</text>
+  <line x1="64" y1="166" x2="896" y2="166" stroke="#b8d8c4" stroke-width="1.5" stroke-dasharray="8 6" />
+  <rect x="64" y="206" width="240" height="264" rx="6" fill="none" stroke="#f5f7f2" stroke-width="2" />
+<rect x="78" y="193" width="140" height="26" fill="#0f3d2c" />
+<text x="86" y="212" class="mono" font-size="18" fill="#f5f7f2"><tspan fill="#b8d8c4">J1</tspan> <tspan fill="#e0b341" font-weight="700">HARDWARE</tspan></text>
+  <text x="86" y="260" class="mono" font-size="18" fill="#f5f7f2">JLC EDA layout</text>
+  <text x="86" y="300" class="mono" font-size="18" fill="#f5f7f2">IP5306 power</text>
+  <text x="86" y="340" class="mono" font-size="18" fill="#f5f7f2">GPRS over UART</text>
+  <text x="86" y="380" class="mono" font-size="18" fill="#f5f7f2">LVGL on ILI9341</text>
+  <rect x="86" y="424" width="16" height="16" rx="2" fill="#e0b341" />
+  <rect x="111" y="424" width="16" height="16" rx="2" fill="#e0b341" />
+  <rect x="136" y="424" width="16" height="16" rx="2" fill="#e0b341" />
+  <rect x="161" y="424" width="16" height="16" rx="2" fill="#e0b341" />
+  <rect x="186" y="424" width="16" height="16" rx="2" fill="#e0b341" />
+  <rect x="211" y="424" width="16" height="16" rx="2" fill="#e0b341" />
+  <rect x="236" y="424" width="16" height="16" rx="2" fill="#e0b341" />
+  <rect x="261" y="424" width="16" height="16" rx="2" fill="#e0b341" />
+  <rect x="370" y="230" width="14" height="8" fill="#e0b341" />
+  <rect x="576" y="230" width="14" height="8" fill="#e0b341" />
+  <rect x="370" y="256" width="14" height="8" fill="#e0b341" />
+  <rect x="576" y="256" width="14" height="8" fill="#e0b341" />
+  <rect x="370" y="282" width="14" height="8" fill="#e0b341" />
+  <rect x="576" y="282" width="14" height="8" fill="#e0b341" />
+  <rect x="370" y="308" width="14" height="8" fill="#e0b341" />
+  <rect x="576" y="308" width="14" height="8" fill="#e0b341" />
+  <rect x="370" y="334" width="14" height="8" fill="#e0b341" />
+  <rect x="576" y="334" width="14" height="8" fill="#e0b341" />
+  <rect x="370" y="360" width="14" height="8" fill="#e0b341" />
+  <rect x="576" y="360" width="14" height="8" fill="#e0b341" />
+  <rect x="370" y="386" width="14" height="8" fill="#e0b341" />
+  <rect x="576" y="386" width="14" height="8" fill="#e0b341" />
+  <rect x="370" y="412" width="14" height="8" fill="#e0b341" />
+  <rect x="576" y="412" width="14" height="8" fill="#e0b341" />
+  <rect x="370" y="438" width="14" height="8" fill="#e0b341" />
+  <rect x="576" y="438" width="14" height="8" fill="#e0b341" />
+  <rect x="384" y="214" width="192" height="248" rx="6" fill="#141816" stroke="#2c332f" stroke-width="2" />
+  <circle class="beat" cx="404" cy="234" r="6" fill="#3fe07a" />
+  <text x="560" y="240" class="mono" font-size="18" fill="#b8d8c4" text-anchor="end">U1</text>
+  <text x="480.0" y="306" class="mono" font-size="36" fill="#f5f7f2" font-weight="700" text-anchor="middle">ESP32</text>
+  <text x="480.0" y="348" class="mono" font-size="18" fill="#f5f7f2" text-anchor="middle">ESP-IDF</text>
+  <text x="480.0" y="378" class="mono" font-size="18" fill="#f5f7f2" text-anchor="middle">FreeRTOS</text>
+  <text x="480.0" y="408" class="mono" font-size="18" fill="#b8d8c4" text-anchor="middle">C &#183; MicroPython</text>
+  <rect x="656" y="206" width="240" height="264" rx="6" fill="none" stroke="#f5f7f2" stroke-width="2" />
+<rect x="670" y="193" width="129" height="26" fill="#0f3d2c" />
+<text x="678" y="212" class="mono" font-size="18" fill="#f5f7f2"><tspan fill="#b8d8c4">U3</tspan> <tspan fill="#e0b341" font-weight="700">BACKEND</tspan></text>
+  <rect x="670" y="232" width="212" height="168" rx="4" fill="#06120b" stroke="#2c332f" stroke-width="2" />
+  <text x="682" y="264" class="mono ln" font-size="18" fill="#7cffb2" style="animation-delay: 0.0s">POST /ingest 201</text>
+  <text x="682" y="298" class="mono ln" font-size="18" fill="#7cffb2" style="animation-delay: 1.2s">GET  /latest 200</text>
+  <text x="682" y="332" class="mono ln" font-size="18" fill="#7cffb2" style="animation-delay: 2.4s">GET  /history 200</text>
+  <text x="682" y="366" class="mono ln" font-size="18" fill="#b8d8c4" style="animation-delay: 3.5999999999999996s">queue drained</text>
+  <rect class="cursor" x="682" y="378" width="10" height="16" fill="#7cffb2" />
+  <text x="678" y="424" class="mono" font-size="18" fill="#f5f7f2">FastAPI</text>
+  <text x="678" y="452" class="mono" font-size="18" fill="#f5f7f2">PostgreSQL</text>
+  <text x="339.5" y="292" class="mono" font-size="18" fill="#f5f7f2" text-anchor="middle">I2C</text>
+  <line x1="309.0" y1="312" x2="370" y2="312" stroke="#d08a3e" stroke-width="4" />
+  <rect x="299.0" y="307.0" width="10" height="10" rx="2" fill="#e0b341" />
+  <circle class="pkt" cx="316.0" cy="312" r="5" fill="#f5f7f2" style="animation-delay: 0.0s" />
+  <line x1="309.0" y1="338" x2="370" y2="338" stroke="#d08a3e" stroke-width="4" />
+  <rect x="299.0" y="333.0" width="10" height="10" rx="2" fill="#e0b341" />
+  <circle class="pkt" cx="316.0" cy="338" r="5" fill="#f5f7f2" style="animation-delay: 0.5s" />
+  <line x1="309.0" y1="364" x2="370" y2="364" stroke="#d08a3e" stroke-width="4" />
+  <rect x="299.0" y="359.0" width="10" height="10" rx="2" fill="#e0b341" />
+  <circle class="pkt" cx="316.0" cy="364" r="5" fill="#f5f7f2" style="animation-delay: 1.0s" />
+  <text x="620.5" y="292" class="mono" font-size="18" fill="#f5f7f2" text-anchor="middle">HTTP</text>
+  <line x1="590" y1="312" x2="651.0" y2="312" stroke="#d08a3e" stroke-width="4" />
+  <rect x="651.0" y="307.0" width="10" height="10" rx="2" fill="#e0b341" />
+  <circle class="pkt" cx="597" cy="312" r="5" fill="#f5f7f2" style="animation-delay: 0.0s" />
+  <line x1="590" y1="338" x2="651.0" y2="338" stroke="#d08a3e" stroke-width="4" />
+  <rect x="651.0" y="333.0" width="10" height="10" rx="2" fill="#e0b341" />
+  <circle class="pkt" cx="597" cy="338" r="5" fill="#f5f7f2" style="animation-delay: 0.5s" />
+  <line x1="590" y1="364" x2="651.0" y2="364" stroke="#d08a3e" stroke-width="4" />
+  <rect x="651.0" y="359.0" width="10" height="10" rx="2" fill="#e0b341" />
+  <circle class="pkt" cx="597" cy="364" r="5" fill="#f5f7f2" style="animation-delay: 1.0s" />
+  <text x="64" y="516" class="mono" font-size="18" fill="#b8d8c4">REV 2026.11</text>
+  <text x="896" y="516" class="mono" font-size="18" fill="#b8d8c4" text-anchor="end">KUALA LUMPUR &#183; MY</text>
+</svg>

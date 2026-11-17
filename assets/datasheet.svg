@@ -1,0 +1,224 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="570" viewBox="0 0 960 570" role="img" aria-label="First-year BSc (Hons) IT student (IoT specialism) at APU, Kuala Lumpur, working across the full telemetry chain: carrier PCBs in JLC EDA, ESP32 firmware in ESP-IDF and FreeRTOS, and FastAPI + PostgreSQL ingest services. Location: Kuala Lumpur, Malaysia. Email: yang.obscurity@gmail.com. Technical stack. LANG: C, Python, MicroPython, SQL; FIRMWARE: ESP32, ESP-IDF, FreeRTOS, LVGL, cJSON; BACKEND: FastAPI, PostgreSQL, SQLAlchemy, Pydantic; HW / OPS: JLC EDA, Linux, Docker, CMake, Git.">
+  <style>.mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }</style>
+  <rect x="1" y="1" width="958" height="568" rx="18" fill="#0f3d2c" stroke="#2a7a57" stroke-width="2" />
+  <path d="M2 19A17 17 0 0 1 19 2H941A17 17 0 0 1 958 19V52H2Z" fill="#0b3024" />
+  <line x1="2" y1="52" x2="958" y2="52" stroke="#2a7a57" stroke-width="2" />
+  <text x="64" y="33" class="mono" font-size="18" fill="#f5f7f2"><tspan fill="#b8d8c4">DS-01</tspan>  <tspan fill="#e0b341" font-weight="700">GENERAL DESCRIPTION</tspan></text>
+  <text x="64" y="92" class="mono" font-size="18" fill="#f5f7f2">First-year BSc (Hons) IT student (IoT specialism) at APU, Kuala Lumpur,</text>
+  <text x="64" y="122" class="mono" font-size="18" fill="#f5f7f2">working across the full telemetry chain: carrier PCBs in JLC EDA, ESP32</text>
+  <text x="64" y="152" class="mono" font-size="18" fill="#f5f7f2">firmware in ESP-IDF and FreeRTOS, and FastAPI + PostgreSQL ingest services.</text>
+  <line x1="64" y1="180" x2="896" y2="180" stroke="#b8d8c4" stroke-width="1.5" stroke-dasharray="8 6" />
+  <circle cx="71" cy="214" r="7" fill="none" stroke="#e0b341" stroke-width="3" />
+  <text x="88" y="220" class="mono" font-size="18" fill="#f5f7f2"><tspan fill="#b8d8c4">LOC</tspan>  <tspan font-weight="700">Kuala Lumpur, MY</tspan></text>
+  <circle cx="381.58" cy="214" r="7" fill="none" stroke="#e0b341" stroke-width="3" />
+  <text x="398.58" y="220" class="mono" font-size="18" fill="#f5f7f2"><tspan fill="#b8d8c4">MAIL</tspan>  <tspan font-weight="700">yang.obscurity@gmail.com</tspan></text>
+  <rect x="2" y="250" width="956" height="52" fill="#0b3024" /><line x1="2" y1="250" x2="958" y2="250" stroke="#2a7a57" stroke-width="2" />
+  <line x1="2" y1="302" x2="958" y2="302" stroke="#2a7a57" stroke-width="2" />
+  <text x="64" y="283" class="mono" font-size="18" fill="#f5f7f2"><tspan fill="#b8d8c4">DS-02</tspan>  <tspan fill="#e0b341" font-weight="700">TECHNICAL STACK</tspan></text>
+  <text x="64" y="352.0" class="mono" font-size="18" fill="#e0b341" font-weight="700">LANG</text>
+  <rect x="211.3" y="321.0" width="8" height="5" fill="#e0b341" />
+  <rect x="211.3" y="366.0" width="8" height="5" fill="#e0b341" />
+  <rect x="191.8" y="326.0" width="47" height="40" rx="4" fill="#141816" stroke="#2c332f" stroke-width="2" />
+  <text x="215.3" y="352.0" class="mono" font-size="18" fill="#f5f7f2" text-anchor="middle">C</text>
+  <rect x="310.2" y="321.0" width="8" height="5" fill="#e0b341" />
+  <rect x="310.2" y="366.0" width="8" height="5" fill="#e0b341" />
+  <rect x="328.2" y="321.0" width="8" height="5" fill="#e0b341" />
+  <rect x="328.2" y="366.0" width="8" height="5" fill="#e0b341" />
+  <rect x="346.2" y="321.0" width="8" height="5" fill="#e0b341" />
+  <rect x="346.2" y="366.0" width="8" height="5" fill="#e0b341" />
+  <rect x="364.2" y="321.0" width="8" height="5" fill="#e0b341" />
+  <rect x="364.2" y="366.0" width="8" height="5" fill="#e0b341" />
+  <rect x="290.3" y="326.0" width="102" height="40" rx="4" fill="#141816" stroke="#2c332f" stroke-width="2" />
+  <text x="341.2" y="352.0" class="mono" font-size="18" fill="#f5f7f2" text-anchor="middle">Python</text>
+  <rect x="455.0" y="321.0" width="8" height="5" fill="#e0b341" />
+  <rect x="455.0" y="366.0" width="8" height="5" fill="#e0b341" />
+  <rect x="473.0" y="321.0" width="8" height="5" fill="#e0b341" />
+  <rect x="473.0" y="366.0" width="8" height="5" fill="#e0b341" />
+  <rect x="491.0" y="321.0" width="8" height="5" fill="#e0b341" />
+  <rect x="491.0" y="366.0" width="8" height="5" fill="#e0b341" />
+  <rect x="509.0" y="321.0" width="8" height="5" fill="#e0b341" />
+  <rect x="509.0" y="366.0" width="8" height="5" fill="#e0b341" />
+  <rect x="527.0" y="321.0" width="8" height="5" fill="#e0b341" />
+  <rect x="527.0" y="366.0" width="8" height="5" fill="#e0b341" />
+  <rect x="545.0" y="321.0" width="8" height="5" fill="#e0b341" />
+  <rect x="545.0" y="366.0" width="8" height="5" fill="#e0b341" />
+  <rect x="563.0" y="321.0" width="8" height="5" fill="#e0b341" />
+  <rect x="563.0" y="366.0" width="8" height="5" fill="#e0b341" />
+  <rect x="581.0" y="321.0" width="8" height="5" fill="#e0b341" />
+  <rect x="581.0" y="366.0" width="8" height="5" fill="#e0b341" />
+  <rect x="443.6" y="326.0" width="157" height="40" rx="4" fill="#141816" stroke="#2c332f" stroke-width="2" />
+  <text x="522.0" y="352.0" class="mono" font-size="18" fill="#f5f7f2" text-anchor="middle">MicroPython</text>
+  <rect x="664.3" y="321.0" width="8" height="5" fill="#e0b341" />
+  <rect x="664.3" y="366.0" width="8" height="5" fill="#e0b341" />
+  <rect x="682.3" y="321.0" width="8" height="5" fill="#e0b341" />
+  <rect x="682.3" y="366.0" width="8" height="5" fill="#e0b341" />
+  <rect x="700.3" y="321.0" width="8" height="5" fill="#e0b341" />
+  <rect x="700.3" y="366.0" width="8" height="5" fill="#e0b341" />
+  <rect x="651.8" y="326.0" width="69" height="40" rx="4" fill="#141816" stroke="#2c332f" stroke-width="2" />
+  <text x="686.3" y="352.0" class="mono" font-size="18" fill="#f5f7f2" text-anchor="middle">SQL</text>
+  <text x="64" y="412.0" class="mono" font-size="18" fill="#e0b341" font-weight="700">FIRMWARE</text>
+  <rect x="206.3" y="381.0" width="8" height="5" fill="#e0b341" />
+  <rect x="206.3" y="426.0" width="8" height="5" fill="#e0b341" />
+  <rect x="224.3" y="381.0" width="8" height="5" fill="#e0b341" />
+  <rect x="224.3" y="426.0" width="8" height="5" fill="#e0b341" />
+  <rect x="242.3" y="381.0" width="8" height="5" fill="#e0b341" />
+  <rect x="242.3" y="426.0" width="8" height="5" fill="#e0b341" />
+  <rect x="260.3" y="381.0" width="8" height="5" fill="#e0b341" />
+  <rect x="260.3" y="426.0" width="8" height="5" fill="#e0b341" />
+  <rect x="191.8" y="386.0" width="91" height="40" rx="4" fill="#141816" stroke="#2c332f" stroke-width="2" />
+  <text x="237.3" y="412.0" class="mono" font-size="18" fill="#f5f7f2" text-anchor="middle">ESP32</text>
+  <rect x="350.6" y="381.0" width="8" height="5" fill="#e0b341" />
+  <rect x="350.6" y="426.0" width="8" height="5" fill="#e0b341" />
+  <rect x="368.6" y="381.0" width="8" height="5" fill="#e0b341" />
+  <rect x="368.6" y="426.0" width="8" height="5" fill="#e0b341" />
+  <rect x="386.6" y="381.0" width="8" height="5" fill="#e0b341" />
+  <rect x="386.6" y="426.0" width="8" height="5" fill="#e0b341" />
+  <rect x="404.6" y="381.0" width="8" height="5" fill="#e0b341" />
+  <rect x="404.6" y="426.0" width="8" height="5" fill="#e0b341" />
+  <rect x="422.6" y="381.0" width="8" height="5" fill="#e0b341" />
+  <rect x="422.6" y="426.0" width="8" height="5" fill="#e0b341" />
+  <rect x="334.2" y="386.0" width="113" height="40" rx="4" fill="#141816" stroke="#2c332f" stroke-width="2" />
+  <text x="390.6" y="412.0" class="mono" font-size="18" fill="#f5f7f2" text-anchor="middle">ESP-IDF</text>
+  <rect x="511.4" y="381.0" width="8" height="5" fill="#e0b341" />
+  <rect x="511.4" y="426.0" width="8" height="5" fill="#e0b341" />
+  <rect x="529.4" y="381.0" width="8" height="5" fill="#e0b341" />
+  <rect x="529.4" y="426.0" width="8" height="5" fill="#e0b341" />
+  <rect x="547.4" y="381.0" width="8" height="5" fill="#e0b341" />
+  <rect x="547.4" y="426.0" width="8" height="5" fill="#e0b341" />
+  <rect x="565.4" y="381.0" width="8" height="5" fill="#e0b341" />
+  <rect x="565.4" y="426.0" width="8" height="5" fill="#e0b341" />
+  <rect x="583.4" y="381.0" width="8" height="5" fill="#e0b341" />
+  <rect x="583.4" y="426.0" width="8" height="5" fill="#e0b341" />
+  <rect x="601.4" y="381.0" width="8" height="5" fill="#e0b341" />
+  <rect x="601.4" y="426.0" width="8" height="5" fill="#e0b341" />
+  <rect x="498.5" y="386.0" width="124" height="40" rx="4" fill="#141816" stroke="#2c332f" stroke-width="2" />
+  <text x="560.4" y="412.0" class="mono" font-size="18" fill="#f5f7f2" text-anchor="middle">FreeRTOS</text>
+  <rect x="691.7" y="381.0" width="8" height="5" fill="#e0b341" />
+  <rect x="691.7" y="426.0" width="8" height="5" fill="#e0b341" />
+  <rect x="709.7" y="381.0" width="8" height="5" fill="#e0b341" />
+  <rect x="709.7" y="426.0" width="8" height="5" fill="#e0b341" />
+  <rect x="727.7" y="381.0" width="8" height="5" fill="#e0b341" />
+  <rect x="727.7" y="426.0" width="8" height="5" fill="#e0b341" />
+  <rect x="673.7" y="386.0" width="80" height="40" rx="4" fill="#141816" stroke="#2c332f" stroke-width="2" />
+  <text x="713.7" y="412.0" class="mono" font-size="18" fill="#f5f7f2" text-anchor="middle">LVGL</text>
+  <rect x="819.5" y="381.0" width="8" height="5" fill="#e0b341" />
+  <rect x="819.5" y="426.0" width="8" height="5" fill="#e0b341" />
+  <rect x="837.5" y="381.0" width="8" height="5" fill="#e0b341" />
+  <rect x="837.5" y="426.0" width="8" height="5" fill="#e0b341" />
+  <rect x="855.5" y="381.0" width="8" height="5" fill="#e0b341" />
+  <rect x="855.5" y="426.0" width="8" height="5" fill="#e0b341" />
+  <rect x="873.5" y="381.0" width="8" height="5" fill="#e0b341" />
+  <rect x="873.5" y="426.0" width="8" height="5" fill="#e0b341" />
+  <rect x="805.1" y="386.0" width="91" height="40" rx="4" fill="#141816" stroke="#2c332f" stroke-width="2" />
+  <text x="850.5" y="412.0" class="mono" font-size="18" fill="#f5f7f2" text-anchor="middle">cJSON</text>
+  <text x="64" y="472.0" class="mono" font-size="18" fill="#e0b341" font-weight="700">BACKEND</text>
+  <rect x="208.3" y="441.0" width="8" height="5" fill="#e0b341" />
+  <rect x="208.3" y="486.0" width="8" height="5" fill="#e0b341" />
+  <rect x="226.3" y="441.0" width="8" height="5" fill="#e0b341" />
+  <rect x="226.3" y="486.0" width="8" height="5" fill="#e0b341" />
+  <rect x="244.3" y="441.0" width="8" height="5" fill="#e0b341" />
+  <rect x="244.3" y="486.0" width="8" height="5" fill="#e0b341" />
+  <rect x="262.3" y="441.0" width="8" height="5" fill="#e0b341" />
+  <rect x="262.3" y="486.0" width="8" height="5" fill="#e0b341" />
+  <rect x="280.3" y="441.0" width="8" height="5" fill="#e0b341" />
+  <rect x="280.3" y="486.0" width="8" height="5" fill="#e0b341" />
+  <rect x="191.8" y="446.0" width="113" height="40" rx="4" fill="#141816" stroke="#2c332f" stroke-width="2" />
+  <text x="248.3" y="472.0" class="mono" font-size="18" fill="#f5f7f2" text-anchor="middle">FastAPI</text>
+  <rect x="371.0" y="441.0" width="8" height="5" fill="#e0b341" />
+  <rect x="371.0" y="486.0" width="8" height="5" fill="#e0b341" />
+  <rect x="389.0" y="441.0" width="8" height="5" fill="#e0b341" />
+  <rect x="389.0" y="486.0" width="8" height="5" fill="#e0b341" />
+  <rect x="407.0" y="441.0" width="8" height="5" fill="#e0b341" />
+  <rect x="407.0" y="486.0" width="8" height="5" fill="#e0b341" />
+  <rect x="425.0" y="441.0" width="8" height="5" fill="#e0b341" />
+  <rect x="425.0" y="486.0" width="8" height="5" fill="#e0b341" />
+  <rect x="443.0" y="441.0" width="8" height="5" fill="#e0b341" />
+  <rect x="443.0" y="486.0" width="8" height="5" fill="#e0b341" />
+  <rect x="461.0" y="441.0" width="8" height="5" fill="#e0b341" />
+  <rect x="461.0" y="486.0" width="8" height="5" fill="#e0b341" />
+  <rect x="479.0" y="441.0" width="8" height="5" fill="#e0b341" />
+  <rect x="479.0" y="486.0" width="8" height="5" fill="#e0b341" />
+  <rect x="356.1" y="446.0" width="146" height="40" rx="4" fill="#141816" stroke="#2c332f" stroke-width="2" />
+  <text x="429.0" y="472.0" class="mono" font-size="18" fill="#f5f7f2" text-anchor="middle">PostgreSQL</text>
+  <rect x="568.3" y="441.0" width="8" height="5" fill="#e0b341" />
+  <rect x="568.3" y="486.0" width="8" height="5" fill="#e0b341" />
+  <rect x="586.3" y="441.0" width="8" height="5" fill="#e0b341" />
+  <rect x="586.3" y="486.0" width="8" height="5" fill="#e0b341" />
+  <rect x="604.3" y="441.0" width="8" height="5" fill="#e0b341" />
+  <rect x="604.3" y="486.0" width="8" height="5" fill="#e0b341" />
+  <rect x="622.3" y="441.0" width="8" height="5" fill="#e0b341" />
+  <rect x="622.3" y="486.0" width="8" height="5" fill="#e0b341" />
+  <rect x="640.3" y="441.0" width="8" height="5" fill="#e0b341" />
+  <rect x="640.3" y="486.0" width="8" height="5" fill="#e0b341" />
+  <rect x="658.3" y="441.0" width="8" height="5" fill="#e0b341" />
+  <rect x="658.3" y="486.0" width="8" height="5" fill="#e0b341" />
+  <rect x="676.3" y="441.0" width="8" height="5" fill="#e0b341" />
+  <rect x="676.3" y="486.0" width="8" height="5" fill="#e0b341" />
+  <rect x="553.4" y="446.0" width="146" height="40" rx="4" fill="#141816" stroke="#2c332f" stroke-width="2" />
+  <text x="626.3" y="472.0" class="mono" font-size="18" fill="#f5f7f2" text-anchor="middle">SQLAlchemy</text>
+  <rect x="763.5" y="441.0" width="8" height="5" fill="#e0b341" />
+  <rect x="763.5" y="486.0" width="8" height="5" fill="#e0b341" />
+  <rect x="781.5" y="441.0" width="8" height="5" fill="#e0b341" />
+  <rect x="781.5" y="486.0" width="8" height="5" fill="#e0b341" />
+  <rect x="799.5" y="441.0" width="8" height="5" fill="#e0b341" />
+  <rect x="799.5" y="486.0" width="8" height="5" fill="#e0b341" />
+  <rect x="817.5" y="441.0" width="8" height="5" fill="#e0b341" />
+  <rect x="817.5" y="486.0" width="8" height="5" fill="#e0b341" />
+  <rect x="835.5" y="441.0" width="8" height="5" fill="#e0b341" />
+  <rect x="835.5" y="486.0" width="8" height="5" fill="#e0b341" />
+  <rect x="853.5" y="441.0" width="8" height="5" fill="#e0b341" />
+  <rect x="853.5" y="486.0" width="8" height="5" fill="#e0b341" />
+  <rect x="750.6" y="446.0" width="124" height="40" rx="4" fill="#141816" stroke="#2c332f" stroke-width="2" />
+  <text x="812.5" y="472.0" class="mono" font-size="18" fill="#f5f7f2" text-anchor="middle">Pydantic</text>
+  <text x="64" y="532.0" class="mono" font-size="18" fill="#e0b341" font-weight="700">HW / OPS</text>
+  <rect x="208.3" y="501.0" width="8" height="5" fill="#e0b341" />
+  <rect x="208.3" y="546.0" width="8" height="5" fill="#e0b341" />
+  <rect x="226.3" y="501.0" width="8" height="5" fill="#e0b341" />
+  <rect x="226.3" y="546.0" width="8" height="5" fill="#e0b341" />
+  <rect x="244.3" y="501.0" width="8" height="5" fill="#e0b341" />
+  <rect x="244.3" y="546.0" width="8" height="5" fill="#e0b341" />
+  <rect x="262.3" y="501.0" width="8" height="5" fill="#e0b341" />
+  <rect x="262.3" y="546.0" width="8" height="5" fill="#e0b341" />
+  <rect x="280.3" y="501.0" width="8" height="5" fill="#e0b341" />
+  <rect x="280.3" y="546.0" width="8" height="5" fill="#e0b341" />
+  <rect x="191.8" y="506.0" width="113" height="40" rx="4" fill="#141816" stroke="#2c332f" stroke-width="2" />
+  <text x="248.3" y="532.0" class="mono" font-size="18" fill="#f5f7f2" text-anchor="middle">JLC EDA</text>
+  <rect x="370.6" y="501.0" width="8" height="5" fill="#e0b341" />
+  <rect x="370.6" y="546.0" width="8" height="5" fill="#e0b341" />
+  <rect x="388.6" y="501.0" width="8" height="5" fill="#e0b341" />
+  <rect x="388.6" y="546.0" width="8" height="5" fill="#e0b341" />
+  <rect x="406.6" y="501.0" width="8" height="5" fill="#e0b341" />
+  <rect x="406.6" y="546.0" width="8" height="5" fill="#e0b341" />
+  <rect x="424.6" y="501.0" width="8" height="5" fill="#e0b341" />
+  <rect x="424.6" y="546.0" width="8" height="5" fill="#e0b341" />
+  <rect x="356.1" y="506.0" width="91" height="40" rx="4" fill="#141816" stroke="#2c332f" stroke-width="2" />
+  <text x="401.6" y="532.0" class="mono" font-size="18" fill="#f5f7f2" text-anchor="middle">Linux</text>
+  <rect x="518.4" y="501.0" width="8" height="5" fill="#e0b341" />
+  <rect x="518.4" y="546.0" width="8" height="5" fill="#e0b341" />
+  <rect x="536.4" y="501.0" width="8" height="5" fill="#e0b341" />
+  <rect x="536.4" y="546.0" width="8" height="5" fill="#e0b341" />
+  <rect x="554.4" y="501.0" width="8" height="5" fill="#e0b341" />
+  <rect x="554.4" y="546.0" width="8" height="5" fill="#e0b341" />
+  <rect x="572.4" y="501.0" width="8" height="5" fill="#e0b341" />
+  <rect x="572.4" y="546.0" width="8" height="5" fill="#e0b341" />
+  <rect x="498.5" y="506.0" width="102" height="40" rx="4" fill="#141816" stroke="#2c332f" stroke-width="2" />
+  <text x="549.4" y="532.0" class="mono" font-size="18" fill="#f5f7f2" text-anchor="middle">Docker</text>
+  <rect x="666.2" y="501.0" width="8" height="5" fill="#e0b341" />
+  <rect x="666.2" y="546.0" width="8" height="5" fill="#e0b341" />
+  <rect x="684.2" y="501.0" width="8" height="5" fill="#e0b341" />
+  <rect x="684.2" y="546.0" width="8" height="5" fill="#e0b341" />
+  <rect x="702.2" y="501.0" width="8" height="5" fill="#e0b341" />
+  <rect x="702.2" y="546.0" width="8" height="5" fill="#e0b341" />
+  <rect x="720.2" y="501.0" width="8" height="5" fill="#e0b341" />
+  <rect x="720.2" y="546.0" width="8" height="5" fill="#e0b341" />
+  <rect x="651.8" y="506.0" width="91" height="40" rx="4" fill="#141816" stroke="#2c332f" stroke-width="2" />
+  <text x="697.2" y="532.0" class="mono" font-size="18" fill="#f5f7f2" text-anchor="middle">CMake</text>
+  <rect x="806.6" y="501.0" width="8" height="5" fill="#e0b341" />
+  <rect x="806.6" y="546.0" width="8" height="5" fill="#e0b341" />
+  <rect x="824.6" y="501.0" width="8" height="5" fill="#e0b341" />
+  <rect x="824.6" y="546.0" width="8" height="5" fill="#e0b341" />
+  <rect x="842.6" y="501.0" width="8" height="5" fill="#e0b341" />
+  <rect x="842.6" y="546.0" width="8" height="5" fill="#e0b341" />
+  <rect x="794.1" y="506.0" width="69" height="40" rx="4" fill="#141816" stroke="#2c332f" stroke-width="2" />
+  <text x="828.6" y="532.0" class="mono" font-size="18" fill="#f5f7f2" text-anchor="middle">Git</text>
+</svg>

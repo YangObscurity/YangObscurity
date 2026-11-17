@@ -1,0 +1,59 @@
+name: Update GitHub Profile Cards and Snake
+
+on:
+  schedule:
+    - cron: "15 18 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate contribution snake SVGs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: YangObscurity
+          outputs: |
+            dist/github-contribution-grid-snake-pcb.svg?color_snake=#f5f7f2&color_dots=#1a4a37,#2f7d58,#58a86f,#c9a23a,#e0b341
+
+      - name: Put the PCB snake on a solder-mask background
+        run: python3 scripts/pcb_snake_background.py dist/github-contribution-grid-snake-pcb.svg
+
+      # Stats cards in the PCB palette. SUMMARY_GITHUB_TOKEN (a PAT) adds
+      # private contributions; without it the public GITHUB_TOKEN is used.
+      - name: Generate stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=YangObscurity&show_icons=true&include_all_commits=true&hide_rank=true&card_width=420&custom_title=GitHub%20Stats&bg_color=0f3d2c&title_color=e0b341&text_color=f5f7f2&icon_color=e0b341&border_color=2a7a57&border_radius=14
+          path: dist/cards/stats.svg
+          token: ${{ secrets.SUMMARY_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=YangObscurity&layout=compact&langs_count=8&card_width=420&exclude_repo=claude-code,pulsefit-studio,Light-skills&custom_title=Top%20Languages&bg_color=0f3d2c&title_color=e0b341&text_color=f5f7f2&icon_color=e0b341&border_color=2a7a57&border_radius=14
+          path: dist/cards/top-langs.svg
+          token: ${{ secrets.SUMMARY_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Match the heights of the side-by-side cards
+        run: python3 scripts/equalize_card_heights.py dist/cards/stats.svg dist/cards/top-langs.svg
+
+      - name: Publish generated assets to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

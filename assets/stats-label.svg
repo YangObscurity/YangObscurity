@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="36" viewBox="0 0 170 36" role="img" aria-label="GITHUB STATS">
+  <rect x="1" y="1" width="168" height="34" rx="6" fill="#0f3d2c" stroke="#2a7a57" stroke-width="2" />
+  <rect x="12" y="13" width="10" height="10" rx="2" fill="#e0b341" />
+  <text x="32" y="24" font-family='ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace' font-size="16" font-weight="700" fill="#f5f7f2">GITHUB STATS</text>
+</svg>
