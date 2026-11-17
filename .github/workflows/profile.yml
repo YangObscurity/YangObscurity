@@ -42,7 +42,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=YangObscurity&layout=compact&langs_count=8&card_width=420&exclude_repo=claude-code,pulsefit-studio,Light-skills&custom_title=Top%20Languages&bg_color=0f3d2c&title_color=e0b341&text_color=f5f7f2&icon_color=e0b341&border_color=2a7a57&border_radius=14
+          options: username=YangObscurity&layout=compact&langs_count=8&card_width=420&exclude_repo=claude-code,pulsefit-studio,Light-skills,Tutorial&custom_title=Top%20Languages&bg_color=0f3d2c&title_color=e0b341&text_color=f5f7f2&icon_color=e0b341&border_color=2a7a57&border_radius=14
           path: dist/cards/top-langs.svg
           token: ${{ secrets.SUMMARY_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
           fail_on_error: true
